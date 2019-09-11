@@ -4,6 +4,8 @@ def reverse_each_word(string)
   
   reversed = split_string.collect{|item| item.reverse!}
   
-  new string = reversed.join()
+  newstring = reversed.join()
+  
+  newstring
   
 end
