@@ -2,7 +2,8 @@ def reverse_each_word(string)
   
   split_string = string.split("")
   
-  string.reverse!
-  string
+  reversed = split_string.collect{|item| item.reverse!}
+  
+  new string = reversed.join()
   
 end
