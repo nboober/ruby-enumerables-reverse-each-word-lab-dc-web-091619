@@ -4,8 +4,8 @@ def reverse_each_word(string)
   
   reversed = string.collect{|item| item.reverse!}
   
-  newstring = reversed.join()
+  # newstring = reversed.join()
   
-  return newstring
+  return reversed
   
 end
